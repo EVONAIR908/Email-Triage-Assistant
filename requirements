@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+openai
+pydantic
+email
+bs4
+streamlit
+python-dotenv
+requests
+scikit-learn
+pandas
+numpy
