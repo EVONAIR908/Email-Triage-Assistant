@@ -75,3 +75,5 @@ Storage
 SQLite / PostgreSQL
 
 Optional vector database (FAISS / Chroma) for context memory
+
+ WORK IN PROGRESS
