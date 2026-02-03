@@ -7,3 +7,4 @@ def summarize_thread(emails):
         else combined_content
     )
     return summary
+summarize_thread(emails)
