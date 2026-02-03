@@ -43,5 +43,6 @@ def fetch_mock_emails():
             )
         )
     return emails
-
+emails = fetch_mock_emails()
+emails
 
