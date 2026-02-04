@@ -21,23 +21,23 @@ def compute_priority(email, category):
     return int(base + recency_bonus)
 emails = [
     Email(
-        sender="boss@company.com",
+        sender="malik@bedco.com",
         subject="Urgent: Deadline Tomorrow",
         content="Please review the report ASAP.",
         date=datetime.now() - timedelta(minutes=10),
         thread_id="thread_1"
     ),
     Email(
-        sender="team@startup.com",
+        sender="team@group1.com",
         subject="Action Required: Review Notes",
         content="Please check the meeting notes.",
         date=datetime.now() - timedelta(hours=5),
         thread_id="thread_2"
     ),
     Email(
-        sender="newsletter@service.com",
-        subject="Weekly Digest",
-        content="Here’s your weekly update.",
+        sender="updates@service.com",
+        subject="Annual report",
+        content="Here’s your annual update.",
         date=datetime.now() - timedelta(hours=24),
         thread_id="thread_3"
     )
