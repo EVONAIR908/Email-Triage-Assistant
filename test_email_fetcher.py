@@ -19,7 +19,7 @@ Content: {self.content}
 """
 
 def fetch_mock_emails():
-    senders = ["boss@company.com", "team@startup.com", "newsletter@service.com"]
+    senders = ["malik@bedco.com", "team@group1.com", "updates@service.com"]
     subjects = [
         "Urgent: Deadline Tomorrow",
         "Meeting Follow-up",
@@ -28,7 +28,7 @@ def fetch_mock_emails():
     contents = [
         "Hey, please confirm the report by tomorrow.",
         "Attached are the meeting notes. Any updates?",
-        "Here’s your weekly digest of product analytics."
+        "Here’s your annual report of product analytics."
     ]
     
     emails = []
